@@ -5,6 +5,7 @@ import net.minecraft.util.registry.Registry;
 import io.github.relapercrystal.moreelements.HighHot;
 import io.github.relapercrystal.moreelements.SharedConstants;
 import io.github.relapercrystal.moreelements.blocks.ModBlocks;
+import io.github.relapercrystal.moreelements.items.tools.essential.EssentialToolsUtil;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 
@@ -26,5 +27,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(ns, "filled_water_bag"), FILLED_WATER_BAG);
         Registry.register(Registry.ITEM, new Identifier(ns, "plastic_ingot"), PLASTIC_INGOT);
         Registry.register(Registry.ITEM, new Identifier(ns, "plastic_stick"), PLASTIC_STICK);
+
+        EssentialToolsUtil.registerTools();
     }
 }
