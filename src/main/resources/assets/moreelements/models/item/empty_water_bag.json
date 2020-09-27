@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "moreelements:item/empty_water_bag"
+    }
+}

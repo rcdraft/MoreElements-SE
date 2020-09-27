@@ -1,0 +1,8 @@
+{
+    "item.moreelements.essential": "基础物品",
+    "item.moreelements.essential.break": "万物的基础碎了！",
+    "item.moreelements.essential.tooltip": "小心——使用的时候可能会破！",
+    "block.moreelements.essential_block": "基础方块",
+    "item.moreelements.empty_water_bag": "空水袋",
+    "item.moreelements.filled_water_bag": "水袋"
+}

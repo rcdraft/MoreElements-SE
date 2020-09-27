@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " G ",
+        "GEG",
+        " G "
+    ],
+    "key": {
+        "E": {
+            "item": "moreelements:essential"
+        },
+        "G": {
+            "item": "minecraft:glass"
+        }
+    },
+    "result": {
+        "item": "moreelements:essential_block",
+        "count": 1
+    }
+}
