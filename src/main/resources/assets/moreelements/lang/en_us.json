@@ -4,5 +4,9 @@
     "item.moreelements.essential.tooltip": "Watch out - It may break if you use it!",
     "block.moreelements.essential_block": "Essential Block",
     "item.moreelements.empty_water_bag": "Empty Water Bag",
-    "item.moreelements.filled_water_bag": "Water Bag"
+    "item.moreelements.filled_water_bag": "Water Bag",
+    "item.moreelements.essential_sword": "Essential Sword",
+    "item.moreelements.essential_pickaxe": "Essential Pickaxe",
+    "item.moreelements.essential_shovel": "Essential Shovel",
+    "item.moreelements.essential_axe": "Essential Axe"
 }
