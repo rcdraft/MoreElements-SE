@@ -1,3 +1,6 @@
+// Copyright (C) RelaperCrystal 2020.
+// Licensed under GNU General Public License version 3.
+
 package io.github.relapercrystal.moreelements.items;
 
 import net.minecraft.advancement.criterion.Criteria;
@@ -79,7 +82,7 @@ public class WaterBagItem extends Item{
         boolean bl2 = blockState.isAir() || bl || block instanceof FluidFillable && ((FluidFillable)block).canFillWithFluid(world, pos, blockState, Fluids.WATER);
 
         if (!bl2) {
-            return blockHitResult != null && this.placeFluid(player, world, blockHitResult.getBlockPos().offset(blockHitResult.getSide()), (BlockHitResult)null);
+            return blockHitResult != null && this.placeFluid(player, world, blockHitResult.getBlockPos().offset(blockHitResult.getSide()), null);
          } else if (world.getDimension().isUltrawarm() && Fluids.WATER.isIn(FluidTags.WATER)) {
             int i = pos.getX();
             int j = pos.getY();

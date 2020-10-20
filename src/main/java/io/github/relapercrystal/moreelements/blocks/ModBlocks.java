@@ -1,3 +1,6 @@
+// Copyright (C) RelaperCrystal 2020.
+// Licensed under GNU General Public License version 3.
+
 package io.github.relapercrystal.moreelements.blocks;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
